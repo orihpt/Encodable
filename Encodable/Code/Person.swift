@@ -11,4 +11,10 @@ struct Person: Encodable, Decodable {
     var firstName: String
     var lastName: String
     var birthday: Date
+    
+    init() {
+        self.firstName = "Tim"
+        self.lastName = "Cook"
+        self.birthday = Date()
+    }
 }
