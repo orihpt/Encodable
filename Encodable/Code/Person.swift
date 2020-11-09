@@ -13,7 +13,7 @@ struct Person: Encodable, Decodable {
     var birthday: Date
 //    var favorite: Bool = false
     
-    // Try to comment these lines, save, uncomment these lines, and load. I want a fix to that error.
+    // Try to comment these lines, run and press save, uncomment these lines, and run and press load. I want a fix to that error.
     
     init() {
         self.firstName = "Tim"
